@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://c3sm4q2gmiytq"]
 
-[ext_resource type="Script" path="res://AutoTiles/scripts/AutoTileTemplate.gd" id="1_3s383"]
-[ext_resource type="TileSet" uid="uid://et1gbat6dafk" path="res://AutoTiles/SourceTiles.tres" id="2_rnvk4"]
-[ext_resource type="TileSet" uid="uid://ujpgpftb8j87" path="res://AutoTiles/GrassTiles.tres" id="3_3jhia"]
+[ext_resource type="Script" path="res://TileReflection/scripts/AutoTileTemplate.gd" id="1_3s383"]
+[ext_resource type="TileSet" uid="uid://et1gbat6dafk" path="res://TileReflection/SourceTiles.tres" id="2_rnvk4"]
+[ext_resource type="TileSet" uid="uid://ujpgpftb8j87" path="res://TileReflection/GrassTiles.tres" id="3_3jhia"]
 
 [node name="Node2D" type="Node2D"]
 

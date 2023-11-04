@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4yethqsohcjo"
-path="res://.godot/imported/TemplateTiles.png-a8b71389b5c7ef5ad3cfd52fa0e134f1.ctex"
+uid="uid://bwov8smq5h7yi"
+path="res://.godot/imported/Grass.png-ae986b25e42d99d851d49acbbd57c9eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://AutoTiles/TemplateTiles.png"
-dest_files=["res://.godot/imported/TemplateTiles.png-a8b71389b5c7ef5ad3cfd52fa0e134f1.ctex"]
+source_file="res://TileReflection/pyxel/Grass.png"
+dest_files=["res://.godot/imported/Grass.png-ae986b25e42d99d851d49acbbd57c9eb.ctex"]
 
 [params]
 
