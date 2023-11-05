@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ReflectionTileRule" load_steps=2 format=3 uid="uid://c5yb2y0fiycl7"]
+
+[ext_resource type="Script" path="res://TileReflection/ReflectionTileRule.gd" id="1_p754j"]
+
+[resource]
+script = ExtResource("1_p754j")
+block = Array[Vector2i]([])
+pattern = Array[Vector2i]([])
+output = Array[Vector2i]([])
