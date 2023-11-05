@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="ReflectionTileRuleSet" load_steps=22 format=3 uid="uid://c7ln5lotlgiha"]
+
+[ext_resource type="Script" path="res://TileReflection/ReflectionTileRule.gd" id="1_pg4qw"]
+[ext_resource type="Script" path="res://TileReflection/ReflectionTileRuleSet.gd" id="2_1ahoq"]
+
+[sub_resource type="Resource" id="Resource_furc6"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0)])
+pattern = Array[Vector2i]([Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(2, 4)])
+
+[sub_resource type="Resource" id="Resource_hy5x4"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(2, 2)])
+
+[sub_resource type="Resource" id="Resource_56b2e"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1)])
+pattern = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(2, 5), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_173qd"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, 4)])
+
+[sub_resource type="Resource" id="Resource_uokxt"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+pattern = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(3, 4), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_lw5ga"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(3, 2), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_2kofj"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1), Vector2i(-1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, 2), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_ivptx"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1)])
+pattern = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(3, 5), Vector2i(-1, -1), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_ip24d"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, 5), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_ihvnc"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 0), Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(5, 3), Vector2i(-1, -1), Vector2i(-1, -1), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_jiert"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(5, 3), Vector2i(-1, -1), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_3usuk"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(0, 0), Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, -1), Vector2i(-1, -1), Vector2i(5, 3)])
+
+[sub_resource type="Resource" id="Resource_2ynvs"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 0), Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, -1), Vector2i(5, 3), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_f8c0g"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1), Vector2i(0, 2)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(5, 4), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_wyfcp"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(5, 2), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_g46ck"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(2, 2), Vector2i(-1, -1), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_sr74v"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(2, 5), Vector2i(-1, -1), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_0yecn"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2), Vector2i(-1, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(1, 0), Vector2i(1, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(5, 4), Vector2i(-1, -1), Vector2i(-1, -1), Vector2i(-1, -1)])
+
+[sub_resource type="Resource" id="Resource_xbal0"]
+script = ExtResource("1_pg4qw")
+block = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1), Vector2i(2, 0), Vector2i(1, 1), Vector2i(3, 0), Vector2i(2, 1), Vector2i(4, 0), Vector2i(3, 1), Vector2i(4, 1)])
+pattern = Array[Vector2i]([Vector2i(1, 0), Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 0), Vector2i(0, 0)])
+output = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, -1), Vector2i(0, 0), Vector2i(-1, -1), Vector2i(1, 0), Vector2i(-1, -1), Vector2i(2, 0), Vector2i(-1, -1), Vector2i(3, 0), Vector2i(4, 0)])
+
+[resource]
+script = ExtResource("2_1ahoq")
+rules = Array[ExtResource("1_pg4qw")]([SubResource("Resource_furc6"), SubResource("Resource_hy5x4"), SubResource("Resource_56b2e"), SubResource("Resource_173qd"), SubResource("Resource_uokxt"), SubResource("Resource_lw5ga"), SubResource("Resource_2kofj"), SubResource("Resource_ivptx"), SubResource("Resource_ip24d"), SubResource("Resource_ihvnc"), SubResource("Resource_jiert"), SubResource("Resource_3usuk"), SubResource("Resource_2ynvs"), SubResource("Resource_f8c0g"), SubResource("Resource_wyfcp"), SubResource("Resource_g46ck"), SubResource("Resource_sr74v"), SubResource("Resource_0yecn"), SubResource("Resource_xbal0")])

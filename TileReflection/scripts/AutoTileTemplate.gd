@@ -4,7 +4,7 @@ extends Node2D
 @export var ReadFrom:TileMap
 @export var Paint: TileMap
 @export var dirty: bool
-@export var rules:Array[ReflectionTileRule]
+@export var rules:ReflectionTileRuleSet
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -14,18 +14,19 @@ func _process(delta):
 
 func churn_data():
 	var blocks = get_all_blocks()
-	print(rules)
-	rules = []
+	rules.rules = []
 	for block in blocks:
 		var rule:ReflectionTileRule = ReflectionTileRule.new()
 		rule.block = block
 		rule.pattern = get_tiledata_from(block, ReadFrom)
 		rule.output = get_tiledata_from(block, Paint)
-		rules.append((rule))
+		rule.reduce()
+		rules.append(rule)
 	
 	
 func get_all_blocks():
 	var used = ReadFrom.get_used_cells(0)
+	used.sort_custom(sort_ascending)
 	var blocks: Array[Array] = []
 	while not used.is_empty() : 
 		var open:Vector2i = used.pop_front()
@@ -53,3 +54,9 @@ func get_tiledata_from(block:Array[Vector2i], tilemap:TileMap):
 	for v2 in block:
 		tile_datas.append(tilemap.get_cell_atlas_coords(0, v2))
 	return tile_datas
+
+func sort_ascending(a:Vector2i, b:Vector2i):
+	if a.y < b.y:
+		return true
+	return a.x < b.x
+	
