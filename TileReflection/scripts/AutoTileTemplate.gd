@@ -19,7 +19,9 @@ func churn_data():
 		var rule:ReflectionTileRule = ReflectionTileRule.new()
 		rule.block = block
 		rule.pattern = get_tiledata_from(block, ReadFrom)
+		rule.patternVariant = get_alternate_tile_from(block, ReadFrom)
 		rule.output = get_tiledata_from(block, Paint)
+		rule.outputVariant = get_alternate_tile_from(block, Paint)
 		rule.reduce()
 		rules.append(rule)
 	
@@ -53,6 +55,12 @@ func get_tiledata_from(block:Array[Vector2i], tilemap:TileMap):
 	var tile_datas: Array[Vector2i] = []
 	for v2 in block:
 		tile_datas.append(tilemap.get_cell_atlas_coords(0, v2))
+	return tile_datas
+
+func get_alternate_tile_from(block:Array[Vector2i], tilemap:TileMap):
+	var tile_datas: Array[int] = []
+	for v2 in block:
+		tile_datas.append(tilemap.get_cell_alternative_tile(0, v2))
 	return tile_datas
 
 func sort_ascending(a:Vector2i, b:Vector2i):
